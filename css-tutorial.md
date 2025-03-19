@@ -900,7 +900,8 @@ blockquote {
 ```
 ```
 [บันทึกภาพหน้าจอของผลลัพธ์การทดลอง]
-![image](https://github.com/user-attachments/assets/f684b483-be89-4d96-89ae-a6d3b3849656)
+![image](https://github.com/user-attachments/assets/57e0363a-5c96-44ae-87ea-de71d13984fb)
+
 
 [](#การทดลองที่-6-Layout-และการจัดวางอิลิเมนต์)
 ## การทดลองที่ 6: Layout และการจัดวางอิลิเมนต์
