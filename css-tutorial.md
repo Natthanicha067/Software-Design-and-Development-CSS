@@ -385,9 +385,129 @@ background-size: cover;
 
 ### ผลการทดลอง
 ```html
-[วางโค้ดที่นี่]
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .product-card {
+    width: 300px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px #f26ecd;
+    background-color: white;
+    margin: 15px;
+    display: inline-block;
+}
+
+.product-image {
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
+
+.product-info {
+    padding: 15px;
+}
+
+.product-title {
+    color: #333;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.product-price {
+    color: hsl(330, 99%, 68%);
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.product-description {
+    color: #666;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.product-button {
+    display: block;
+    background: linear-gradient(to right, hwb(333 24% 2%), hsl(322, 95%, 70%));
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    margin-top: 15px;
+    border-radius: 4px;
+}
+
+.product-button:hover {
+    background: linear-gradient(to right, hwb(333 24% 2%), hsl(322, 95%, 70%));
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+    </style>
+
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Product Cards</title>
+        <link rel="stylesheet" href="styles.css"> 
+</head>
+<body>
+    <div class="product-card">
+        <div class="product-image" style="background-image: url('img/1.กะเพรา.jpg');"></div>
+        <div class="product-info">
+            <h2 class="product-title">ข้าวกะเพรา</h2>
+            <p class="product-price">฿350</p>
+            <p class="product-description">
+                รายละเอียด กะเพรารสชาติเลอค่าอร่อยเหาะ
+            </p>
+            <a href="#" class="product-button">เพิ่มลงตะกร้า</a>
+        </div>
+    </div>
+    <div class="product-card">
+        <div class="product-image" style="background-image: url('img/2.สุกี้.jpg');"></div>
+        <div class="product-info">
+            <h2 class="product-title">สุกี้</h2>
+            <p class="product-price">฿255</p>
+            <p class="product-description">
+                รายละเอียด เส้นเหนียวนุ่ม รสชาติดี๊ดี
+            </p>
+            <a href="#" class="product-button">เพิ่มลงตะกร้า</a>
+        </div>
+    </div>
+    <div class="product-card">
+        <div class="product-image" style="background-image: url('img/3.ข้าวคลุกกะปิ.jpg');"></div>
+        <div class="product-info">
+            <h2 class="product-title">ข้าวคลุกกะปิ</h2>
+            <p class="product-price">฿300</p>
+            <p class="product-description">
+                รายละเอียด รสชาติกลมกล่อม อร่อย นัวมาก
+            </p>
+            <a href="#" class="product-button">เพิ่มลงตะกร้า</a>
+        </div>
+    </div>
+    <div class="product-card">
+        <div class="product-image" style="background-image: url('img/4.ข้าวผัดกุ้ง.jpg');"></div>
+        <div class="product-info">
+            <h2 class="product-title">ข้าวผัดกุ้ง</h2>
+            <p class="product-price">฿360</p>
+            <p class="product-description">
+                รายละเอียด ข้าวเรียงเม็ดสวย รสชาติเริ่ดมาก
+            </p>
+            <a href="#" class="product-button">เพิ่มลงตะกร้า</a>
+        </div>
+    </div>
+</body>
+
+</html>
 ```
-[บันทึกภาพหน้าจอของผลลัพธ์การทดลอง]
+![image](https://github.com/user-attachments/assets/5e325941-83f0-4a22-b01f-a4170562a0f1)
+
 
 [](#การทดลองที่-4-การจัดการขนาดและระยะห่าง)
 ## การทดลองที่ 4: การจัดการขนาดและระยะห่าง
