@@ -903,7 +903,7 @@ blockquote {
 ![image](https://github.com/user-attachments/assets/57e0363a-5c96-44ae-87ea-de71d13984fb)
 
 
-[](#การทดลองที่-6-Layout-และการจัดวางอิลิเมนต์)
+##(#การทดลองที่-6-Layout-และการจัดวางอิลิเมนต์)
 ## การทดลองที่ 6: Layout และการจัดวางอิลิเมนต์
 
 ### 6.1 การจัดวางด้วย Flexbox และ Grid
