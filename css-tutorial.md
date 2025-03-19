@@ -1049,85 +1049,50 @@ blockquote {
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-    <article class="blog-post">
-        <header class="post-header">
-            <h1 class="post-title">วิธีการเขียนบทความที่น่าสนใจ</h1>
-            <div class="post-meta">โพสต์เมื่อ 12 กุมภาพันธ์ 2025 | โดย ผู้เขียน ณัฏฐณิชา สิจง</div>
-        </header>
-        
-        <div class="post-content">
-            <p>เนื้อหาบทความที่ดีควรมีความน่าสนใจและเป็นประโยชน์ต่อผู้อ่าน การเขียนบทความให้น่าอ่านนั้นมีหลักการสำคัญหลายประการ</p>
-
-            <h2>1. การเลือกหัวข้อที่น่าสนใจ</h2>
-            <p>หัวข้อที่ดีควรตรงกับความสนใจของกลุ่มเป้าหมาย และมีประโยชน์ต่อผู้อ่าน</p>
-
-            <blockquote>
-                "การเขียนที่ดีไม่ได้เกิดจากพรสวรรค์เพียงอย่างเดียว แต่เกิดจากการฝึกฝนอย่างสม่ำเสมอ"
-            </blockquote>
-
-            <h2>2. การจัดโครงสร้างเนื้อหา</h2>
-            <p>เนื้อหาที่ดีควรมีการจัดลำดับที่เป็นระบบ เข้าใจง่าย และมีความต่อเนื่อง</p>
+    <div class="product-grid">
+        <div class="product-card">
+            <div class="product-image" style="background-image: url('img/1.กะเพรา.jpg');"></div>
+            <div class="product-details">
+                <h3 class="product-title">กะเพรา</h3>
+                <div class="product-price">฿350</div>
+                <div class="product-action">
+                    <button class="add-to-cart">เพิ่มลงตะกร้า</button>
+                </div>
+            </div>
         </div>
-    </article>
-</body>
+        <div class="product-card">
+            <div class="product-image" style="background-image: url('img/2.สุกี้.jpg');"></div>
+            <div class="product-details">
+                <h3 class="product-title">สุกี้</h3>
+                <div class="product-price">฿340</div>
+                <div class="product-action">
+                    <button class="add-to-cart">เพิ่มลงตะกร้า</button>
+                </div>
+            </div>
+        </div>
+        <div class="product-card">
+            <div class="product-image" style="background-image: url('img/3.ข้าวคลุกกะปิ.jpg');"></div>
+            <div class="product-details">
+                <h3 class="product-title">ข้าวคลุกกะปิ</h3>
+                <div class="product-price">฿315</div>
+                <div class="product-action">
+                    <button class="add-to-cart">เพิ่มลงตะกร้า</button>
+                </div>
+            </div>
+        </div>
+        <div class="product-card">
+            <div class="product-image" style="background-image: url('img/4.ข้าวผัดกุ้ง.jpg');"></div>
+            <div class="product-details">
+                <h3 class="product-title">ข้าวผัดกุ้ง</h3>
+                <div class="product-price">฿250</div>
+                <div class="product-action">
+                    <button class="add-to-cart">เพิ่มลงตะกร้า</button>
+                </div>
+            </div>
+        </div>
+    </body>
 </html>
 ```
-```css
-.blog-post {
-    max-width: 750px;
-    margin: 2rem auto;
-    padding: 0 1rem;
-    font-family: 'Tahoma',sans-serif;
-}
-
-.post-header {
-    text-align: center;
-    margin-bottom: 2rem;
-}
-
-.post-title {
-    font-size: 3rem;
-    color: hsl(285, 100%, 65%);
-    margin-bottom: 1.5rem;
-    line-height: 1.2;
-}
-
-.post-meta {
-    color: #2a2020;
-    font-size: 1rem;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-}
-
-.post-content {
-    font-size: 1.1rem;
-    line-height: 1.8;
-    color: hsl(296, 100%, 65%);
-}
-
-.post-content p {
-    margin-bottom: 1.5rem;
-}
-
-.post-content h2 {
-    font-size: 1.8rem;
-    color: #098ffc;
-    margin: 2rem 0 1rem;
-}
-
-blockquote {
-    font-style: italic;
-    border-left: 4px solid hsl(309, 96%, 37%);
-    margin: 1.5rem 0;
-    padding-left: 1rem;
-    color: #2a2020;
-}
-
-@media (max-width: 768px) {
-    .post-title {
-        font-size: 2rem;
-    }
-}
 ```css
 .product-image {
     background-image: url('images/products/1.jpg');
@@ -1187,7 +1152,7 @@ blockquote {
 
 .product-price {
     font-size: 1rem;  
-    color: hsl(306, 100%, 50%);
+    color: hsl(291, 100%, 50%);
     font-weight: bold;
 }
 
@@ -1199,7 +1164,7 @@ blockquote {
 }
 
 .add-to-cart {
-    background-color: hsl(305, 95%, 76%);
+    background-color: hsl(298, 95%, 76%);
     color: white;
     border: none;
     padding: 5px 10px;  
@@ -1208,7 +1173,7 @@ blockquote {
 }
 
 .add-to-cart:hover {
-    background-color: hsl(295, 95%, 76%);
+    background-color: hsl(294, 95%, 76%);
 }
 
 @media (max-width: 768px) {
@@ -1226,7 +1191,8 @@ blockquote {
 }
 ```
 [บันทึกภาพหน้าจอของผลลัพธ์การทดลอง]
-![image](https://github.com/user-attachments/assets/30c4b6cb-c241-4844-badd-794525f48a55)
+![image](https://github.com/user-attachments/assets/9cce28ce-85de-4d10-b8b5-17bcf40a8a13)
+
 
 
 
