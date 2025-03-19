@@ -1224,6 +1224,7 @@ blockquote {
         font-size: 0.9rem;  
     }
 }
+```
 [บันทึกภาพหน้าจอของผลลัพธ์การทดลอง]
 ![image](https://github.com/user-attachments/assets/30c4b6cb-c241-4844-badd-794525f48a55)
 
